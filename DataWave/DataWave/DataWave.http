@@ -1,0 +1,6 @@
+@DataWave_HostAddress = http://localhost:5068
+
+GET {{DataWave_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

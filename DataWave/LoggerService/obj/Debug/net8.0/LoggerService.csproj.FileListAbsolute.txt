@@ -1,0 +1,5 @@
+C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfo.cs
+C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.CoreCompileInputs.cache
