@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tonimoore\\source\\repos\\Project2\\DataWave\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\tonimoore\\source\\repos\\Project2\\DataWave\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\tonimoore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tonimoore\\source\\repos\\Project2\\DataWave\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

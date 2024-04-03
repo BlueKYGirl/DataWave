@@ -15,7 +15,8 @@ namespace Entities
         public string? PhoneNumber { get; set; }
         [ForeignKey(nameof(User))]
         public Guid? UserId { get; set; }
-        [ForeignKey(nameof(UserPlan))]
-        public Guid? UserPlanId { get; set; }
+        public User User { get; set; } = null!;
+       
+        
     }
 }

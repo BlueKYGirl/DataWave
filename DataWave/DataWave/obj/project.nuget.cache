@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dsfh3gO7tunvKJPyjrC6CLUW+DyPyt/ojGO4m8eVWgAEpTTCRKVFnEiNZ5QoQS5UyZvOiNrvt1HqFdmVmtKL7w==",
+  "dgSpecHash": "zdcAZL1UJzXGALAZbdf9+T5lOoCpROFlVESCxtSnyrRYUO0uTSLKaq0am3NEXGy6+CL8KB6kj2aCsO7jBO87Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\Project2\\DataWave\\DataWave\\DataWave.csproj",
+  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\DataWave.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tonimoore\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\tonimoore\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

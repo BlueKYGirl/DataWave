@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWave", "DataWave.csproj", "{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataWave", "DataWave.csproj", "{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "..\Contracts\Contracts.csproj", "{0C820CFE-CA9C-4239-A798-A5A1B1575C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "..\Contracts\Contracts.csproj", "{0C820CFE-CA9C-4239-A798-A5A1B1575C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "..\LoggerService\LoggerService.csproj", "{E56DBD5D-C591-4418-918B-C9D3668FD8DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "..\LoggerService\LoggerService.csproj", "{E56DBD5D-C591-4418-918B-C9D3668FD8DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "..\Entities\Entities.csproj", "{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
