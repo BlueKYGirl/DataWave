@@ -18,6 +18,7 @@ namespace Entities
         [Column(TypeName = "money")]
         public decimal Price { get; set; }
         public List<User> Users { get; } = [];
+        public ICollection<Device> Devices { get; } = new List<Device>();
         
 
     }
