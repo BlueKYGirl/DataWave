@@ -17,9 +17,11 @@ namespace Entities
         [Required]
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
-        public List<Plan> Plans { get; } = [];
+     
         public ICollection<Device> Devices { get; } = new List<Device>();
-
+        public ICollection<PlanUser> PlanUsers { get; } = new List<PlanUser>();
+        
+       
 
         public string? FullName
         {

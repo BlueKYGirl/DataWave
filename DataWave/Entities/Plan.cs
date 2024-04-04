@@ -17,8 +17,8 @@ namespace Entities
         [DataType(DataType.Currency)]
         [Column(TypeName = "money")]
         public decimal Price { get; set; }
-        public List<User> Users { get; } = [];
-        public ICollection<Device> Devices { get; } = new List<Device>();
+       public ICollection<PlanUser> PlanUsers { get; } = new List<PlanUser>();
+        
         
 
     }

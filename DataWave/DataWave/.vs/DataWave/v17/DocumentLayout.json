@@ -3,22 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}|..\\Entities\\Entities.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\irepositorymanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\iplanuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\planuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C820CFE-CA9C-4239-A798-A5A1B1575C65}|..\\Contracts\\Contracts.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\configuration\\planuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}|..\\Entities\\Entities.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\entities\\planuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}|..\\Entities\\Entities.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}|..\\Entities\\Entities.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC4B2A0-CA4F-4030-9D59-AC243FF56794}|..\\Entities\\Entities.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\entities\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B51AB1-BABE-4F27-B11B-EA038C9BB19E}|..\\Repository\\Repository.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\repository\\configuration\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\datawave\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|solutionrelative:contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\datawave\\datawave.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|solutionrelative:datawave.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|c:\\users\\tonimoore\\source\\repos\\datawave\\datawave\\datawave\\datawave\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CDF1DAB7-3859-4F1C-9EC0-A7084F63D1E0}|DataWave.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,25 +77,260 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Plan.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Plan.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Plan.cs",
+              "RelativeToolTip": "..\\Entities\\Plan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:28:59.163Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Device.cs",
-              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Device.cs",
-              "RelativeDocumentMoniker": "..\\Entities\\Device.cs",
-              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Device.cs",
-              "RelativeToolTip": "..\\Entities\\Device.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
+              "Title": "IRepositoryManger.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IRepositoryManger.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IRepositoryManger.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IRepositoryManger.cs",
+              "RelativeToolTip": "..\\Contracts\\IRepositoryManger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T21:13:39.2Z",
+              "WhenOpened": "2024-04-04T21:51:41.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PlanUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\PlanUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\PlanUserRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\PlanUserRepository.cs",
+              "RelativeToolTip": "..\\Repository\\PlanUserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:50:50.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\PlanRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\PlanRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\PlanRepository.cs",
+              "RelativeToolTip": "..\\Repository\\PlanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:50:50.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:50:49.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeviceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\DeviceRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\DeviceRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\DeviceRepository.cs",
+              "RelativeToolTip": "..\\Repository\\DeviceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:50:49.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDeviceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IDeviceRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IDeviceRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IDeviceRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IDeviceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:46:56.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPlanUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IPlanUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IPlanUserRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IPlanUserRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IPlanUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:46:56.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPlanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IPlanRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IPlanRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IPlanRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IPlanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:46:55.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:46:55.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:43:43.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "..\\Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Repository.csproj",
+              "RelativeToolTip": "..\\Repository\\Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-04T21:43:09.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\IRepositoryBase.cs",
+              "RelativeToolTip": "..\\Contracts\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:41:44.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlanUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\PlanUserConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Configuration\\PlanUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\PlanUserConfiguration.cs",
+              "RelativeToolTip": "..\\Repository\\Configuration\\PlanUserConfiguration.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:32:29.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Device.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Device.cs",
+              "RelativeToolTip": "..\\Entities\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:23:02.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlanUser.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\PlanUser.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\PlanUser.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\PlanUser.cs",
+              "RelativeToolTip": "..\\Entities\\PlanUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:18:03.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:12:09.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlanConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\PlanConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Configuration\\PlanConfiguration.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\PlanConfiguration.cs",
+              "RelativeToolTip": "..\\Repository\\Configuration\\PlanConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:08:48.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeviceConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\DeviceConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Configuration\\DeviceConfiguration.cs",
+              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\Configuration\\DeviceConfiguration.cs",
+              "RelativeToolTip": "..\\Repository\\Configuration\\DeviceConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:08:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "RepositoryContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\ContextFactory\\RepositoryContextFactory.cs",
               "RelativeDocumentMoniker": "ContextFactory\\RepositoryContextFactory.cs",
@@ -57,43 +338,21 @@
               "RelativeToolTip": "ContextFactory\\RepositoryContextFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:17:21.902Z"
+              "WhenOpened": "2024-04-03T20:17:21.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataWave.csproj",
-              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\DataWave.csproj",
-              "RelativeDocumentMoniker": "DataWave.csproj",
-              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\DataWave.csproj",
-              "RelativeToolTip": "DataWave.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-03T20:14:30.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\DataWave\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T20:05:43.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RepositoryContext.cs",
               "DocumentMoniker": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "..\\Repository\\RepositoryContext.cs",
               "ToolTip": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Repository\\RepositoryContext.cs",
               "RelativeToolTip": "..\\Repository\\RepositoryContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T19:54:25.139Z"
+              "WhenOpened": "2024-04-03T19:54:25.139Z",
+              "EditorCaption": ""
             }
           ]
         }

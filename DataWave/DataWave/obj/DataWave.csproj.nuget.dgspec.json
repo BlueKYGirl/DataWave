@@ -337,6 +337,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Contracts\\Contracts.csproj"
+              },
               "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Entities.csproj"
               }

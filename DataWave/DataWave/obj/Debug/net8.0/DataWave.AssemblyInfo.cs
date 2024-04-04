@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataWave")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d106c650a6a5342e9ed66228c21e5f79084dcceb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e5e7939b504d32c8ac66546ecce695ea023b359")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataWave")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataWave")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

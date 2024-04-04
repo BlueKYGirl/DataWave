@@ -32,7 +32,7 @@ namespace DataWave.Migrations
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("PlanId")
+                    b.Property<Guid?>("PlanUserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("UserId")
@@ -40,11 +40,34 @@ namespace DataWave.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PlanId");
+                    b.HasIndex("PlanUserId");
 
                     b.HasIndex("UserId");
 
                     b.ToTable("Devices");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f73f65e4-8b79-4fd1-b9a2-cb109ca932e2"),
+                            PhoneNumber = "1234567890",
+                            PlanUserId = new Guid("c3aa48a0-1dc8-4f17-a6d4-ef57896fe57a"),
+                            UserId = new Guid("06917677-cdd6-4523-91b8-88d6d0a912d2")
+                        },
+                        new
+                        {
+                            Id = new Guid("b82a50f6-40b8-4b10-b8ef-9f401e3f0ac5"),
+                            PhoneNumber = "0987654321",
+                            PlanUserId = new Guid("4fb2f9d1-8746-4850-9e1a-d2b3fc272780"),
+                            UserId = new Guid("798acf1b-7339-44bd-8367-7132a978d7b1")
+                        },
+                        new
+                        {
+                            Id = new Guid("eaa6bc36-60f3-4815-b19a-8f2b79f4aa67"),
+                            PhoneNumber = "5432167890",
+                            PlanUserId = new Guid("8f57b505-4bc2-4cb7-86de-9e8d64dfcf85"),
+                            UserId = new Guid("2a36409f-6732-459b-b7d1-a561c521a3cb")
+                        });
                 });
 
             modelBuilder.Entity("Entities.Plan", b =>
@@ -66,6 +89,71 @@ namespace DataWave.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Plans");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f73f65e4-8b79-4fd1-b9a2-cb109ca932e2"),
+                            DeviceLimit = 10,
+                            PlanName = "Basic Plan",
+                            Price = 29.99m
+                        },
+                        new
+                        {
+                            Id = new Guid("b82a50f6-40b8-4b10-b8ef-9f401e3f0ac5"),
+                            DeviceLimit = 20,
+                            PlanName = "Premium Plan",
+                            Price = 49.99m
+                        },
+                        new
+                        {
+                            Id = new Guid("eaa6bc36-60f3-4815-b19a-8f2b79f4aa67"),
+                            DeviceLimit = 3,
+                            PlanName = "Free Plan",
+                            Price = 0m
+                        });
+                });
+
+            modelBuilder.Entity("Entities.PlanUser", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("PlanUserId");
+
+                    b.Property<Guid>("PlanId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlanId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("PlanUser");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c3aa48a0-1dc8-4f17-a6d4-ef57896fe57a"),
+                            PlanId = new Guid("f73f65e4-8b79-4fd1-b9a2-cb109ca932e2"),
+                            UserId = new Guid("06917677-cdd6-4523-91b8-88d6d0a912d2")
+                        },
+                        new
+                        {
+                            Id = new Guid("4fb2f9d1-8746-4850-9e1a-d2b3fc272780"),
+                            PlanId = new Guid("b82a50f6-40b8-4b10-b8ef-9f401e3f0ac5"),
+                            UserId = new Guid("798acf1b-7339-44bd-8367-7132a978d7b1")
+                        },
+                        new
+                        {
+                            Id = new Guid("8f57b505-4bc2-4cb7-86de-9e8d64dfcf85"),
+                            PlanId = new Guid("eaa6bc36-60f3-4815-b19a-8f2b79f4aa67"),
+                            UserId = new Guid("2a36409f-6732-459b-b7d1-a561c521a3cb")
+                        });
                 });
 
             modelBuilder.Entity("Entities.User", b =>
@@ -92,56 +180,71 @@ namespace DataWave.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
 
-            modelBuilder.Entity("PlanUser", b =>
-                {
-                    b.Property<Guid>("PlansId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("UsersId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("PlansId", "UsersId");
-
-                    b.HasIndex("UsersId");
-
-                    b.ToTable("PlanUser");
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("06917677-cdd6-4523-91b8-88d6d0a912d2"),
+                            Email = "calexander@contosouniversity.edu",
+                            FirstName = "Carson",
+                            LastName = "Alexander"
+                        },
+                        new
+                        {
+                            Id = new Guid("798acf1b-7339-44bd-8367-7132a978d7b1"),
+                            Email = "malonso@contosouniversity.edu",
+                            FirstName = "Meredith",
+                            LastName = "Alonso"
+                        },
+                        new
+                        {
+                            Id = new Guid("2a36409f-6732-459b-b7d1-a561c521a3cb"),
+                            Email = "aanand@contosouniversity.edu",
+                            FirstName = "Arturo",
+                            LastName = "Anand"
+                        });
                 });
 
             modelBuilder.Entity("Entities.Device", b =>
                 {
-                    b.HasOne("Entities.Plan", "Plan")
+                    b.HasOne("Entities.PlanUser", "PlanUser")
                         .WithMany("Devices")
+                        .HasForeignKey("PlanUserId");
+
+                    b.HasOne("Entities.User", "User")
+                        .WithMany("Devices")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("PlanUser");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Entities.PlanUser", b =>
+                {
+                    b.HasOne("Entities.Plan", "Plan")
+                        .WithMany("PlanUsers")
                         .HasForeignKey("PlanId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Entities.User", "User")
-                        .WithMany("Devices")
-                        .HasForeignKey("UserId");
+                        .WithMany("PlanUsers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Plan");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("PlanUser", b =>
+            modelBuilder.Entity("Entities.Plan", b =>
                 {
-                    b.HasOne("Entities.Plan", null)
-                        .WithMany()
-                        .HasForeignKey("PlansId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Entities.User", null)
-                        .WithMany()
-                        .HasForeignKey("UsersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("PlanUsers");
                 });
 
-            modelBuilder.Entity("Entities.Plan", b =>
+            modelBuilder.Entity("Entities.PlanUser", b =>
                 {
                     b.Navigation("Devices");
                 });
@@ -149,6 +252,8 @@ namespace DataWave.Migrations
             modelBuilder.Entity("Entities.User", b =>
                 {
                     b.Navigation("Devices");
+
+                    b.Navigation("PlanUsers");
                 });
 #pragma warning restore 612, 618
         }

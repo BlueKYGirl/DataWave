@@ -16,8 +16,10 @@ namespace Entities
         [ForeignKey(nameof(User))]
         public Guid? UserId { get; set; }
         public User User { get; set; } = null!;
-        public Guid PlanId { get; set; }
-        public Plan Plan { get; set; } = null!; 
+        [ForeignKey(nameof(PlanUser))]
+        public Guid? PlanUserId { get; set; }
+        public PlanUser? PlanUser { get; set; } 
+      
        
         
     }
