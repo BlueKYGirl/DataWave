@@ -24,10 +24,10 @@ namespace Repository
             _planUserRepository = new Lazy<IPlanUserRepository>(() => new PlanUserRepository(_repositoryContext));
         }
 
-        public IUserRepository UserRepository => _userRepository.Value;
-        public IDeviceRepository DeviceRepository => _deviceRepository.Value;
-        public IPlanRepository PlanRepository => _planRepository.Value;
-        public IPlanUserRepository PlanUserRepository => _planUserRepository.Value;
+        public IUserRepository User => _userRepository.Value;
+        public IDeviceRepository Device => _deviceRepository.Value;
+        public IPlanRepository Plan => _planRepository.Value;
+        public IPlanUserRepository PlanUser => _planUserRepository.Value;
         
         public void Save() => _repositoryContext.SaveChanges();
         public async Task SaveAsync() => await _repositoryContext.SaveChangesAsync();

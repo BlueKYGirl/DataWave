@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Service.Contracts
 {
-    internal interface IServiceManager
+    public interface IServiceManager
     {
+        IPlanUserService PlanUser { get; }
+        IPlanService Plan { get; }
+        IDeviceService Device { get; }
+        IUserService User { get; }
+
+
     }
 }

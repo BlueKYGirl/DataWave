@@ -8,10 +8,10 @@ namespace Contracts
 {
     public interface IRepositoryManager
     {
-        IUserRepository UserRepository { get; }
-        IDeviceRepository DeviceRepository { get; }
-        IPlanRepository PlanRepository { get; }
-        IPlanUserRepository PlanUserRepository { get; }
+        IUserRepository User { get; }
+        IDeviceRepository Device { get; }
+        IPlanRepository Plan { get; }
+        IPlanUserRepository PlanUser { get; }
         void Save();
         Task SaveAsync();
     }

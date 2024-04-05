@@ -14,3 +14,5 @@ C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\obj\Debug\
 C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\bin\Debug\net8.0\Contracts.dll
+C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Repository\bin\Debug\net8.0\Contracts.pdb

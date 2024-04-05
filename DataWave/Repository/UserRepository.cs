@@ -15,5 +15,9 @@ namespace Repository
             : base(repositoryContext)
         {
         }
+        public async Task<IEnumerable<User>> GetAllUsersAsync(bool trackchanges) =>
+            await FindAll(trackchanges)
+            .OrderBy(u => u.LastName)
+            .ToListAsync();
     }
 }
