@@ -29,6 +29,18 @@ namespace Service
            var usersDto = _mapper.Map<IEnumerable<UserDto>>(users);
             return usersDto;
         }
+        public UserDto GetUser(Guid id, bool trackChanges)
+        {
+            var user = _repositoryManager.User.GetUser(id, trackChanges);
+            var userDto = _mapper.Map<UserDto>(user);
+            return userDto;
+        }
+        public async Task<UserDto> GetUserAsync(Guid id, bool trackChanges)
+        {
+            var user = await _repositoryManager.User.GetUserAsync(id, trackChanges);
+            var userDto = _mapper.Map<UserDto>(user);
+            return userDto;
+        }
         public async Task<UserDto> CreateUserAsync(UserForCreationDto user)
         {
             var userEntity = _mapper.Map<User>(user);

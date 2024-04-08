@@ -19,6 +19,12 @@ namespace Repository
             await FindAll(trackchanges)
             .OrderBy(u => u.LastName)
             .ToListAsync();
+        public User GetUser(Guid userId, bool trackChanges) =>
+            FindByCondition(u => u.Id.Equals(userId), trackChanges)
+            .SingleOrDefault();
+        public async Task<User> GetUserAsync(Guid userId, bool trackChanges) =>
+            await FindByCondition(u => u.Id.Equals(userId), trackChanges)
+            .SingleOrDefaultAsync();
         public void CreateUser(User user) => Create(user);
     }
 }

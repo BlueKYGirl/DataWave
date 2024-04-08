@@ -11,14 +11,14 @@ namespace Shared.DataTransferObjects
     {
         [Required(ErrorMessage = "First name is required.")]
         [MaxLength(60, ErrorMessage = "First name cannot be longer than 60 characters.")]
-        public string? FirstName { get; set; }
+        public string? FirstName { get; init; }
 
         [Required(ErrorMessage = "Last name is required.")]
         [MaxLength(60, ErrorMessage = "Last name cannot be longer than 60 characters.")]
-        public string? LastName { get; set; }
+        public string? LastName { get; init; }
         [Required]
         [DataType(DataType.EmailAddress)]
-        public string? Email { get; set; }
+        public string? Email { get; init; }
 
 
     }

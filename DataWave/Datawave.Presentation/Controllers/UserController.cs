@@ -24,12 +24,19 @@ namespace DataWave.Presentation.Controllers
             var users = await _service.User.GetAllUsersAsync(trackChanges: false);
             return Ok(users);
         }
+        [HttpGet("{id:guid}", Name = "UserById")]
+        public async Task<IActionResult> GetUser(Guid id)
+        {
+            var user = await _service.User.GetUserAsync(id, trackChanges: false);
+            return Ok(user);
+        }
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromBody] UserForCreationDto user)
         
         {
             if (user == null)
                 return BadRequest("UserForCreationDto object is null");
+            Console.WriteLine("Is it getting here");
 
            // if (!ModelState.IsValid)
                 
