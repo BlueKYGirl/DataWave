@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoggerService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+945cfb87dfbf04927d588e9f6007206dec4985b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9053cbb775e5ede7af46444926f5e9f02ac20034")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoggerService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoggerService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

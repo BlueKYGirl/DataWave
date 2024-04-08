@@ -11,5 +11,6 @@ namespace Service.Contracts
     public interface IUserService
     {
         Task<IEnumerable<UserDto>> GetAllUsersAsync(bool trackChanges);
+        Task<UserDto> CreateUserAsync(UserForCreationDto user);
     }
 }

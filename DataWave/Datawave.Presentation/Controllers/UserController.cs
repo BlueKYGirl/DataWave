@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
+using Shared.DataTransferObjects;
+
 
 
 using Microsoft.AspNetCore.JsonPatch;
@@ -21,6 +23,21 @@ namespace DataWave.Presentation.Controllers
         {
             var users = await _service.User.GetAllUsersAsync(trackChanges: false);
             return Ok(users);
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateUser([FromBody] UserForCreationDto user)
+        
+        {
+            if (user == null)
+                return BadRequest("UserForCreationDto object is null");
+
+           // if (!ModelState.IsValid)
+                
+               // return UnprocessableEntity(ModelState);
+                
+
+            var createdUser = await _service.User.CreateUserAsync(user);
+            return CreatedAtRoute("UserById", new { id = createdUser.Id }, createdUser);
         }
     }
 }

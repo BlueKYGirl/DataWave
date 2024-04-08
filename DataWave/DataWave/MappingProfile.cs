@@ -11,7 +11,8 @@ namespace DataWave
         {
             CreateMap<User, UserDto>()
               .ForMember(c => c.FullName,
-                           opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}")); 
+                           opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"));
+            CreateMap<UserForCreationDto, User>();
         }
     }
 }

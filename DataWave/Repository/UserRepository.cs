@@ -19,5 +19,6 @@ namespace Repository
             await FindAll(trackchanges)
             .OrderBy(u => u.LastName)
             .ToListAsync();
+        public void CreateUser(User user) => Create(user);
     }
 }
