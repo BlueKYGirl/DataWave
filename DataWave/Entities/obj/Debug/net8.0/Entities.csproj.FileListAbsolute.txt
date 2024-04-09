@@ -1,12 +1,24 @@
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\bin\Debug\net8.0\Entities.deps.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\bin\Debug\net8.0\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\bin\Debug\net8.0\Entities.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.sourcelink.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\refint\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\Entities.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.deps.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/refint/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/obj/Debug/net8.0/ref/Entities.dll

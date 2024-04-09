@@ -1,16 +1,32 @@
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\bin\Debug\net8.0\Contracts.deps.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\bin\Debug\net8.0\Contracts.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\bin\Debug\net8.0\Contracts.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\bin\Debug\net8.0\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\bin\Debug\net8.0\Entities.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\refint\Contracts.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\Contracts.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.deps.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/bin/Debug/net8.0/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/bin/Debug/net8.0/Entities.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.AssemblyReference.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfoInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfo.cs
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.CoreCompileInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.sourcelink.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.Up2Date
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/refint/Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Contracts/obj/Debug/net8.0/ref/Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.deps.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/bin/Debug/net8.0/Contracts.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/bin/Debug/net8.0/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/bin/Debug/net8.0/Entities.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.AssemblyReference.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfoInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.AssemblyInfo.cs
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.sourcelink.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.csproj.Up2Date
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/refint/Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/Contracts.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Contracts/obj/Debug/net8.0/ref/Contracts.dll

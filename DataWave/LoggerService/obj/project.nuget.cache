@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "vpprPfcnkwA5HkceAELWvUao/xt+yVzf53iJqXxxNuT79aqfoRa2V23UOVShD3fUyVzaMsTwE5ZObwyZ2w66Yw==",
+  "dgSpecHash": "IQYOZqeIU8jWq9/tLSa44s91qN7XQ20Dt3rc4BTvxlN3SUXaK9hzBvXQ9GHIB8FuVvAQEAIKwKeNgDCYi0im6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/LoggerService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512"
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/nlog/5.2.8/nlog.5.2.8.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/nlog.extensions.logging/5.3.8/nlog.extensions.logging.5.3.8.nupkg.sha512"
   ],
   "logs": []
 }
