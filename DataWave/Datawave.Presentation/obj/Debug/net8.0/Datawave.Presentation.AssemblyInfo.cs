@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataWave.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31153194c32734f0b00b9cdacbb6e72bc4e33bca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+510574874dae06b714ee71caeee2b8d9fbe21368")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataWave.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataWave.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

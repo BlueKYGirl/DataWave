@@ -15,6 +15,7 @@ namespace DataWave
             CreateMap<UserForCreationDto, User>();
             CreateMap<Plan, PlanDto>();
             CreateMap<Device, DeviceDto>();
+            CreateMap<PlanUser, PlanUserDto>();
         }
     }
 }

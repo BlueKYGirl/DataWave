@@ -26,7 +26,7 @@ namespace DataWave.Presentation.Controllers
             return Ok(devices);
         }
         [HttpGet("{id:guid}", Name = "DeviceById")]
-        public async Task<IActionResult> GetPlan(Guid id)
+        public async Task<IActionResult> GetDevice(Guid id)
         {
             var device = await _service.Device.GetDeviceAsync(id, trackChanges: false);
             return Ok(device);
