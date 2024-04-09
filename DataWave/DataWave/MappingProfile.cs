@@ -14,6 +14,7 @@ namespace DataWave
                            opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"));
             CreateMap<UserForCreationDto, User>();
             CreateMap<Plan, PlanDto>();
+            CreateMap<Device, DeviceDto>();
         }
     }
 }

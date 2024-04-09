@@ -15,5 +15,21 @@ namespace DataWave.Presentation.Controllers
     [ApiController]
     public class DeviceController : ControllerBase
     { 
+        private readonly IServiceManager _service;
+
+        public DeviceController(IServiceManager serviceManager) => _service = serviceManager;
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllDevices()
+        {
+            var devices = await _service.Device.GetAllDevicesAsync(trackChanges: false);
+            return Ok(devices);
+        }
+        [HttpGet("{id:guid}", Name = "DeviceById")]
+        public async Task<IActionResult> GetPlan(Guid id)
+        {
+            var device = await _service.Device.GetDeviceAsync(id, trackChanges: false);
+            return Ok(device);
+        }
     }
 }
