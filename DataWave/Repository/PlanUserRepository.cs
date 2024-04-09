@@ -15,5 +15,17 @@ namespace Repository
             : base(repositoryContext)
         {
         }
+        public async Task<IEnumerable<PlanUser>> GetAllPlanUsersAsync(bool trackchanges) =>
+            await FindAll(trackchanges)
+            .OrderBy(p => p.Id)
+            .ToListAsync();
+        public PlanUser GetPlanUser(Guid planUserId, bool trackChanges) =>
+            FindByCondition(p => p.Id.Equals(planUserId), trackChanges)
+            .SingleOrDefault();
+        public async Task<PlanUser> GetPlanUserAsync(Guid planUserId, bool trackChanges) =>
+            await FindByCondition(p => p.Id.Equals(planUserId), trackChanges)
+            .SingleOrDefaultAsync();
+        public async Task<IEnumerable<PlanUser>> GetPlansForUserAsync(Guid userId, bool trackChanges) =>
+            await FindByCondition(p => p.UserId.Equals(userId), trackChanges).ToListAsync();
     }
 }

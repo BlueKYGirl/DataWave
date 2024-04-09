@@ -8,5 +8,8 @@ namespace Shared.DataTransferObjects
 {
     public record PlanUserDto
     {
+        public Guid Id { get; init; }
+        public Guid PlanId { get; init; }
+        public Guid UserId { get; init; }
     }
 }
