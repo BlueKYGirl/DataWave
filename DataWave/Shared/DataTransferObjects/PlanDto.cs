@@ -8,5 +8,9 @@ namespace Shared.DataTransferObjects
 {
     public record PlanDto
     {
+        public Guid Id { get; set; }
+        public string? PlanName { get; set; }
+        public int? DeviceLimit { get; set; }
+        public decimal Price { get; set; }
     }
 }
