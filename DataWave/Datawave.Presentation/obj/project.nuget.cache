@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "daOvjvgHPJW67wP1YyDE0fr3IF1+w+GpEa06iNguaH8ONwosIs2VkINDT/17QLVMO9AsSLI1fEf982blaSCDyw==",
+  "dgSpecHash": "P1b9pK7aUhnHz3mTB4tn//g7MGyLlda0vGgs2VX3iemJOG/S3OSlQ2sbSCEuswe9PUZoCCTQ5U92sRboptJbDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Datawave.Presentation\\DataWave.Presentation.csproj",
+  "projectFilePath": "/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/DataWave.Presentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.3\\microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\tonimoore\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "/Users/hunteratkins/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.3/microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.3/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/hunteratkins/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

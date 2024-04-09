@@ -16,5 +16,15 @@ namespace Repository
             : base(repositoryContext)
         {
         }
+        public async Task<IEnumerable<Device>> GetAllDevicesAsync(bool trackchanges) =>
+            await FindAll(trackchanges)
+            .OrderBy(d => d.PlanUser)
+            .ToListAsync();
+        public Device GetDevice(Guid deviceId, bool trackChanges) =>
+            FindByCondition(d => d.Id.Equals(deviceId), trackChanges)
+            .SingleOrDefault();
+        public async Task<Device> GetDeviceAsync(Guid deviceId, bool trackChanges) =>
+            await FindByCondition(d => d.Id.Equals(deviceId), trackChanges)
+            .SingleOrDefaultAsync();
     }
 }

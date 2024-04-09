@@ -1,20 +1,40 @@
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\DataWave.Presentation.deps.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\DataWave.Presentation.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\DataWave.Presentation.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Service.Contracts.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Service.Contracts.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Entities.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.csproj.AssemblyReference.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.AssemblyInfoInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.AssemblyInfo.cs
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.csproj.CoreCompileInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.sourcelink.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.2BC54537.Up2Date
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\refint\DataWave.Presentation.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\DataWave.Presentation.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\obj\Debug\net8.0\ref\DataWave.Presentation.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Shared.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\Datawave.Presentation\bin\Debug\net8.0\Shared.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.deps.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Service.Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Service.Contracts.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Entities.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.csproj.AssemblyReference.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.AssemblyInfoInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.AssemblyInfo.cs
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.csproj.CoreCompileInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.sourcelink.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.2BC54537.Up2Date
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/refint/DataWave.Presentation.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/ref/DataWave.Presentation.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Shared.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Shared.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.deps.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/DataWave.Presentation.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Service.Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Shared.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Service.Contracts.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Entities.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/bin/Debug/net8.0/Shared.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.csproj.AssemblyReference.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.AssemblyInfoInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.AssemblyInfo.cs
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.csproj.CoreCompileInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.sourcelink.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.2BC54537.Up2Date
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/refint/DataWave.Presentation.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/DataWave.Presentation.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Datawave.Presentation/obj/Debug/net8.0/ref/DataWave.Presentation.dll

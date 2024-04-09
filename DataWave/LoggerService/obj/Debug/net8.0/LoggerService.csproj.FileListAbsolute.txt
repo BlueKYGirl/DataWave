@@ -1,23 +1,41 @@
-C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
-C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache
-C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfo.cs
-C:\Users\tonimoore\source\repos\Project2\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.CoreCompileInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\LoggerService.deps.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\LoggerService.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\LoggerService.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\Contracts.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\Entities.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\Contracts.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\bin\Debug\net8.0\Entities.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfo.cs
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.csproj.CoreCompileInputs.cache
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.sourcelink.json
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerSe.E7AEA5A8.Up2Date
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\LoggerService.pdb
-C:\Users\tonimoore\source\repos\DataWave\DataWave\DataWave\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+C:/Users/tonimoore/source/repos/Project2/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.AssemblyReference.cache
+C:/Users/tonimoore/source/repos/Project2/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tonimoore/source/repos/Project2/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfoInputs.cache
+C:/Users/tonimoore/source/repos/Project2/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfo.cs
+C:/Users/tonimoore/source/repos/Project2/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.CoreCompileInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.deps.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Contracts.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Entities.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Contracts.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Entities.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.AssemblyReference.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfoInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfo.cs
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.CoreCompileInputs.cache
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.sourcelink.json
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerSe.E7AEA5A8.Up2Date
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/refint/LoggerService.dll
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.pdb
+C:/Users/tonimoore/source/repos/DataWave/DataWave/DataWave/LoggerService/obj/Debug/net8.0/ref/LoggerService.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.deps.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/LoggerService.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Contracts.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Entities.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Contracts.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/bin/Debug/net8.0/Entities.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.AssemblyReference.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfoInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.AssemblyInfo.cs
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.csproj.CoreCompileInputs.cache
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.sourcelink.json
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerSe.E7AEA5A8.Up2Date
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/refint/LoggerService.dll
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/LoggerService.pdb
+/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/LoggerService/obj/Debug/net8.0/ref/LoggerService.dll

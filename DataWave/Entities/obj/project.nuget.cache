@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w79TVqczijUL0o1jes5eCAyyl5kxIftcopGmVekYUyZoDn3Y1/j7ga9/IO23HZ+0r119AnD8abGno2lCDj7f4Q==",
+  "dgSpecHash": "VxQ7u4N9XKkLG9QVz7ZLBMJIvb4qc10+M5ES9F0Ii98Fq41ApIT107mU/tTDC8KtF1bQ/nZvt0p0otCGlUeh8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Entities\\Entities.csproj",
+  "projectFilePath": "/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Entities/Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

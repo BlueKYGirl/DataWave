@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jCJkCvFf8j58u6An+IIq9Echx8Uam55R05wHTgSvkrMRLrs9vJnOTGR55X30usnJUGRSLZsPHp1jC4mCXrGwPQ==",
+  "dgSpecHash": "lsx0D6NHSL9RUsnF0N2cAeZZlXyU/srJ95K1vDXfZyUN4V8qLw/jQK7k8/IwTT47ou9o1mG6Lu1QSwG+KUjoDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonimoore\\source\\repos\\DataWave\\DataWave\\DataWave\\Service.Contracts\\Service.Contracts.csproj",
+  "projectFilePath": "/Users/hunteratkins/Desktop/DataWave Backend/DataWave/DataWave/Service.Contracts/Service.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
