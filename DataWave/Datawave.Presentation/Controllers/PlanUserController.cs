@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.JsonPatch;
 
 namespace DataWave.Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class PlanUserController : ControllerBase
     {
@@ -17,17 +17,23 @@ namespace DataWave.Presentation.Controllers
 
         public PlanUserController(IServiceManager serviceManager) => _service = serviceManager;
 
-        [HttpGet]
+        [HttpGet("planuser")]
         public async Task<IActionResult> GetAllPlanUsers()
         {
             var planUsers = await _service.PlanUser.GetAllPlanUsersAsync(trackChanges: false);
             return Ok(planUsers);
         }
-        [HttpGet("{id:guid}", Name = "PlanUserById")]
+        [HttpGet("planuser/{id:guid}", Name = "PlanUserById")]
         public async Task<IActionResult> GetPlanUser(Guid id)
         {
             var planUser = await _service.PlanUser.GetPlanUserAsync(id, trackChanges: false);
             return Ok(planUser);
+        }
+        [HttpGet("user/{userId:guid}/planuser")]
+        public async Task<IActionResult> GetAllPlanUsersByUserId(Guid userId)
+        {
+            var planUsers =  await _service.PlanUser.GetAllPlanUsersByUserIdAsync(userId, trackChanges: false);
+            return Ok(planUsers);
         }
     }
 }

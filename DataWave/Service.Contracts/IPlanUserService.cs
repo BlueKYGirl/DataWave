@@ -12,5 +12,6 @@ namespace Service.Contracts
         Task<IEnumerable<PlanUserDto>> GetAllPlanUsersAsync(bool trackChanges);
         PlanUserDto GetPlanUser(Guid id, bool trackChanges);
         Task<PlanUserDto> GetPlanUserAsync(Guid id, bool trackChanges);
+        Task<IEnumerable<PlanUserDto>> GetAllPlanUsersByUserIdAsync(Guid userId, bool trackChanges);
     }
 }

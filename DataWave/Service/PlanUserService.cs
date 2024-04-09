@@ -40,5 +40,11 @@ namespace Service
             var planUserDto = _mapper.Map<PlanUserDto>(planUser);
             return planUserDto;
         }
+        public async Task<IEnumerable<PlanUserDto>> GetAllPlanUsersByUserIdAsync(Guid userId, bool trackChanges)
+        {
+            var planUsers = await _repositoryManager.PlanUser.GetPlansForUserAsync(userId, trackChanges);
+            var planUsersDto = _mapper.Map<IEnumerable<PlanUserDto>>(planUsers);
+            return planUsersDto;
+        }
     }
 }

@@ -25,5 +25,7 @@ namespace Repository
         public async Task<PlanUser> GetPlanUserAsync(Guid planUserId, bool trackChanges) =>
             await FindByCondition(p => p.Id.Equals(planUserId), trackChanges)
             .SingleOrDefaultAsync();
+        public async Task<IEnumerable<PlanUser>> GetPlansForUserAsync(Guid userId, bool trackChanges) =>
+            await FindByCondition(p => p.UserId.Equals(userId), trackChanges).ToListAsync();
     }
 }
