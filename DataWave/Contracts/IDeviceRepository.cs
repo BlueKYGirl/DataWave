@@ -12,5 +12,6 @@ namespace Contracts
         Task<IEnumerable<Device>> GetAllDevicesAsync(bool trackChanges);
         Task<Device> GetDeviceAsync(Guid id, bool trackChanges);
         Device GetDevice(Guid id, bool trackChanges);
+        void CreateDevice(Device device);
     }
 }

@@ -26,5 +26,6 @@ namespace Repository
         public async Task<Device> GetDeviceAsync(Guid deviceId, bool trackChanges) =>
             await FindByCondition(d => d.Id.Equals(deviceId), trackChanges)
             .SingleOrDefaultAsync();
+        public void CreateDevice(Device device) => Create(device);
     }
 }
