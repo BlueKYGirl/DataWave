@@ -13,5 +13,6 @@ namespace Contracts
         Task<Device> GetDeviceAsync(Guid id, bool trackChanges);
         Device GetDevice(Guid id, bool trackChanges);
         void CreateDevice(Device device);
+        void DeleteDevice(Device device);
     }
 }

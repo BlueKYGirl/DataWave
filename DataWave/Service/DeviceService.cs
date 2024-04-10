@@ -8,6 +8,7 @@ using Contracts;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using Entities;
+using Entities.Exceptions;
 
 namespace Service
 {
@@ -49,6 +50,43 @@ namespace Service
             await _repositoryManager.SaveAsync();
             var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
             return deviceToReturn;
+        }
+        public void DeleteDevice(Guid id, bool trackChanges)
+        {
+            var device = _repositoryManager.Device.GetDevice(id, trackChanges);
+            if (device == null)
+                throw new DeviceNotFoundException(id);
+                
+            _repositoryManager.Device.DeleteDevice(device);
+            _repositoryManager.Save();
+        }
+        public async Task DeleteDeviceAsync(Guid id, bool trackChanges)
+        {
+            var device = await _repositoryManager.Device.GetDeviceAsync(id, trackChanges);
+            if (device == null)
+                throw new DeviceNotFoundException(id);
+                
+              
+            _repositoryManager.Device.DeleteDevice(device);
+            await _repositoryManager.SaveAsync();
+        }
+        public void UpdateDevice(Guid id, DeviceForUpdateDto device, bool trackChanges)
+        {
+            var deviceEntity = _repositoryManager.Device.GetDevice(id, trackChanges);
+            if (deviceEntity == null)
+                throw new DeviceNotFoundException(id);
+                
+            _mapper.Map(device, deviceEntity);
+            _repositoryManager.Save();
+        }
+        public async Task UpdateDeviceAsync(Guid id, DeviceForUpdateDto device, bool trackChanges)
+        {
+            var deviceEntity = await _repositoryManager.Device.GetDeviceAsync(id, trackChanges);
+            if (deviceEntity == null)
+                throw new DeviceNotFoundException(id);
+                
+            _mapper.Map(device, deviceEntity);
+            await _repositoryManager.SaveAsync();
         }
     }
 }

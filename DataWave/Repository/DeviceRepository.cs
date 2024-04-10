@@ -27,5 +27,7 @@ namespace Repository
             await FindByCondition(d => d.Id.Equals(deviceId), trackChanges)
             .SingleOrDefaultAsync();
         public void CreateDevice(Device device) => Create(device);
+
+        public void DeleteDevice(Device device) => Delete(device);
     }
 }
