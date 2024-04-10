@@ -12,5 +12,6 @@ namespace Service.Contracts
         Task<IEnumerable<DeviceDto>> GetAllDevicesAsync(bool trackChanges);
         DeviceDto GetDevice(Guid id, bool trackChanges);
         Task<DeviceDto> GetDeviceAsync(Guid id, bool trackChanges);
+        Task<DeviceDto> CreateDeviceAsync(Guid userId,DeviceForCreationDto device);
     }
 }

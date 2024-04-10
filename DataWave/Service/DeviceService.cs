@@ -7,6 +7,7 @@ using AutoMapper;
 using Contracts;
 using Service.Contracts;
 using Shared.DataTransferObjects;
+using Entities;
 
 namespace Service
 {
@@ -39,6 +40,15 @@ namespace Service
             var device = await _repositoryManager.Device.GetDeviceAsync(id, trackChanges);
             var deviceDto = _mapper.Map<DeviceDto>(device);
             return deviceDto;
+        }
+        public async Task<DeviceDto> CreateDeviceAsync(Guid userId, DeviceForCreationDto device)
+        {
+            var deviceEntity = _mapper.Map<Device>(device);
+            deviceEntity.UserId = userId;
+            _repositoryManager.Device.CreateDevice(deviceEntity);
+            await _repositoryManager.SaveAsync();
+            var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
+            return deviceToReturn;
         }
     }
 }

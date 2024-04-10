@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /DataWave/internal_logs
+
+/Users/hunteratkins/Desktop/newTestProject/DataWave/DataWave/DataWave/appsettings.json
+/Users/hunteratkins/Desktop/newTestProject/DataWave/DataWave/DataWave/appsettings.Development.json
