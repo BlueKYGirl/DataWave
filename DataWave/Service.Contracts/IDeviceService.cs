@@ -13,5 +13,9 @@ namespace Service.Contracts
         DeviceDto GetDevice(Guid id, bool trackChanges);
         Task<DeviceDto> GetDeviceAsync(Guid id, bool trackChanges);
         Task<DeviceDto> CreateDeviceAsync(Guid userId,DeviceForCreationDto device);
+        Task DeleteDeviceAsync(Guid id, bool trackChanges);
+        Task UpdateDeviceAsync(Guid id, DeviceForUpdateDto device, bool trackChanges);
+        void DeleteDevice(Guid id, bool trackChanges);
+        void UpdateDevice(Guid id, DeviceForUpdateDto device, bool trackChanges);
     }
 }

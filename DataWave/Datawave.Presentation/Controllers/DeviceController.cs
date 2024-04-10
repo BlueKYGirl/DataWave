@@ -43,6 +43,24 @@ namespace DataWave.Presentation.Controllers
             var createdDevice = await _service.Device.CreateDeviceAsync(userId, device);
             return CreatedAtRoute("DeviceById", new { id = createdDevice.Id }, createdDevice);
         }
+        [HttpDelete("device/{id:guid}")]
+        public async Task<IActionResult> DeleteDevice(Guid id)
+        {
+            await _service.Device.DeleteDeviceAsync(id, trackChanges: false);
+            return NoContent();
+        }
+
+        [HttpPut("device/{id:guid}")]
+        public async Task<IActionResult> UpdateDevice(Guid id, [FromBody] DeviceForUpdateDto device)
+        {
+            if (device == null)
+            {
+                return BadRequest("DeviceForUpdateDto object is null");
+            }
+
+            await _service.Device.UpdateDeviceAsync(id, device, trackChanges: false);
+            return NoContent();
+        }
 
     }
 }
