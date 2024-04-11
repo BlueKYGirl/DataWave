@@ -42,5 +42,12 @@ namespace DataWave.Presentation.Controllers
             var createdPlanUser = await _service.PlanUser.CreatePlanUserAsync(planUser);
             return CreatedAtRoute("PlanUserById", new {id = createdPlanUser.Id }, createdPlanUser);
         }
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> DeletePlanUser(Guid id)
+        {
+            
+            await _service.PlanUser.DeletePlanUserAsync(id, trackChanges: false);
+            return NoContent();
+        }
     }
 }
