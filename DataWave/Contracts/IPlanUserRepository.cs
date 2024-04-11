@@ -13,5 +13,6 @@ namespace Contracts
         Task<PlanUser> GetPlanUserAsync(Guid id, bool trackChanges);
         PlanUser GetPlanUser(Guid id, bool trackChanges);
         Task<IEnumerable<PlanUser>> GetPlansForUserAsync(Guid userId, bool trackChanges);
+        void CreatePlanUser(PlanUser planUser);
     }
 }

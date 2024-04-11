@@ -46,5 +46,11 @@ namespace DataWave.Presentation.Controllers
             var createdUser = await _service.User.CreateUserAsync(user);
             return CreatedAtRoute("UserById", new { id = createdUser.Id }, createdUser);
         }
+        // [HttpGet("{id:guid}/device")]
+        // public async Task<IActionResult> GetUserDevices(Guid id)
+        // {
+        //     var devices = await _service.User.GetUserDevicesAsync(id, trackChanges: false);
+        //     return Ok(devices);
+        // }
     }
 }

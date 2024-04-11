@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Contracts;
+using Entities;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 
@@ -45,6 +46,14 @@ namespace Service
             var planUsers = await _repositoryManager.PlanUser.GetPlansForUserAsync(userId, trackChanges);
             var planUsersDto = _mapper.Map<IEnumerable<PlanUserDto>>(planUsers);
             return planUsersDto;
+        }
+        public async Task<PlanUserDto> CreatePlanUserAsync(PlanUserForCreationDto planUser)
+        {
+            var planUserEntity = _mapper.Map<PlanUser>(planUser);
+            _repositoryManager.PlanUser.CreatePlanUser(planUserEntity);
+            await _repositoryManager.SaveAsync();
+            var planUserToReturn = _mapper.Map<PlanUserDto>(planUserEntity);
+            return planUserToReturn;
         }
     }
 }
