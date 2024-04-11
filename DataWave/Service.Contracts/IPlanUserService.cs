@@ -14,5 +14,7 @@ namespace Service.Contracts
         Task<PlanUserDto> GetPlanUserAsync(Guid id, bool trackChanges);
         Task<IEnumerable<PlanUserDto>> GetAllPlanUsersByUserIdAsync(Guid userId, bool trackChanges);
         Task<PlanUserDto> CreatePlanUserAsync(PlanUserForCreationDto planUser);
+        Task DeletePlanUserAsync(Guid id, bool trackChanges);
+        void DeletePlanUser(Guid id, bool trackChanges);
     }
 }

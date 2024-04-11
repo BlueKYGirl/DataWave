@@ -29,5 +29,6 @@ namespace Repository
             await FindByCondition(p => p.UserId.Equals(userId), trackChanges).ToListAsync();
 
         public void CreatePlanUser(PlanUser planUser) => Create(planUser);
+        public void DeletePlanUser(PlanUser planUser) => Delete(planUser);
     }
 }

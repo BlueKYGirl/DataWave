@@ -55,5 +55,17 @@ namespace Service
             var planUserToReturn = _mapper.Map<PlanUserDto>(planUserEntity);
             return planUserToReturn;
         }
+        public void DeletePlanUser(Guid id, bool trackChanges)
+        {
+            var planUser = _repositoryManager.PlanUser.GetPlanUser(id, trackChanges);
+            _repositoryManager.PlanUser.DeletePlanUser(planUser);
+            _repositoryManager.Save();
+        }
+        public async Task DeletePlanUserAsync(Guid id, bool trackChanges)
+        {
+            var planUser = await _repositoryManager.PlanUser.GetPlanUserAsync(id, trackChanges);
+            _repositoryManager.PlanUser.DeletePlanUser(planUser);
+            await _repositoryManager.SaveAsync();
+        }
     }
 }

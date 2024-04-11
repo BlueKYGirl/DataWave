@@ -12,5 +12,6 @@ namespace Contracts
         Task<IEnumerable<Plan>> GetAllPlansAsync(bool trackChanges);
         Task<Plan> GetPlanAsync(Guid id, bool trackChanges);
         Plan GetPlan(Guid id, bool trackChanges);
+      
     }
 }
