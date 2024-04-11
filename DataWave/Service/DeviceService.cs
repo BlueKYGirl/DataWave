@@ -79,14 +79,37 @@ namespace Service
             _mapper.Map(device, deviceEntity);
             _repositoryManager.Save();
         }
-        public async Task UpdateDeviceAsync(Guid id, DeviceForUpdateDto device, bool trackChanges)
+        public async Task<DeviceDto> UpdateDeviceAsync(Guid deviceId, DeviceForUpdateDto deviceUpdateDto, bool trackChanges)
         {
-            var deviceEntity = await _repositoryManager.Device.GetDeviceAsync(id, trackChanges);
+            var deviceEntity = await _repositoryManager.Device.GetDeviceAsync(deviceId, trackChanges);
+
             if (deviceEntity == null)
-                throw new DeviceNotFoundException(id);
-                
-            _mapper.Map(device, deviceEntity);
+            {
+                // Device with the specified ID not found
+                throw new DeviceNotFoundException(deviceId);
+            }
+
+            // Update device properties based on the provided update DTO
+            if (!string.IsNullOrEmpty(deviceUpdateDto.PhoneNumber))
+            {
+                deviceEntity.PhoneNumber = deviceUpdateDto.PhoneNumber;
+            }
+
+            if (deviceUpdateDto.PlanUserId != null)
+            {
+                deviceEntity.PlanUserId = deviceUpdateDto.PlanUserId;
+            }
+
+            // Save the updated device entity
             await _repositoryManager.SaveAsync();
+
+            // Map the updated device entity to a DTO and return it
+            var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
+            return deviceToReturn;
         }
+
+
+
+
     }
 }
