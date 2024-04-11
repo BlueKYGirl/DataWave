@@ -18,8 +18,8 @@ namespace Entities
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
      
-        public ICollection<Device> Devices { get; } = new List<Device>();
-        public ICollection<PlanUser> PlanUsers { get; } = new List<PlanUser>();
+        public ICollection<Device>? Devices { get; set; }
+        public ICollection<PlanUser>? PlanUsers { get; set; }
         
        
 

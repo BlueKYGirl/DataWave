@@ -50,5 +50,11 @@ namespace Service
             var userToReturn = _mapper.Map<UserDto>(userEntity);
             return userToReturn;
         }
+        // public async Task<UserDevicesDto> GetUserDevicesAsync(Guid id, bool trackChanges)
+        // {
+        //     var user = await _repositoryManager.User.GetUserAsync(id, trackChanges);
+        //     var userDevicesDto = _mapper.Map<UserDevicesDto>(user);
+        //     return userDevicesDto;
+        // }
     }
 }
