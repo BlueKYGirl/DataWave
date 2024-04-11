@@ -58,7 +58,7 @@ namespace DataWave.Presentation.Controllers
                 return BadRequest("DeviceForUpdateDto object is null");
             }
 
-            await _service.Device.UpdateDeviceAsync(id, device, trackChanges: false);
+            await _service.Device.UpdateDeviceAsync(id, device, trackChanges: true);
             return NoContent();
         }
 

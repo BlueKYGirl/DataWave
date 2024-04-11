@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Shared.DataTransferObjects
 {
-    public record DeviceForUpdateDto : DeviceForManipulationDto;
+    public record DeviceForUpdateDto : DeviceForManipulationDto
+    {
+        public Guid? PlanUserId { get; init; }
+    }
    
 }
