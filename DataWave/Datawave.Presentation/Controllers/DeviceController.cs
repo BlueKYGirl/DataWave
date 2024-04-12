@@ -26,6 +26,18 @@ namespace DataWave.Presentation.Controllers
             var devices = await _service.Device.GetAllDevicesAsync(trackChanges: false);
             return Ok(devices);
         }
+        [HttpGet("device/planuser/{planUserId:guid}")]
+        public async Task<IActionResult> GetAllDevicesByPlanUser(Guid planUserId)
+        {
+            var devices = await _service.Device.GetAllDevicesByPlanUserAsync(planUserId, trackChanges: false);
+            return Ok(devices);
+        }
+        [HttpGet("device/user/{userId:guid}")]
+        public async Task<IActionResult> GetAllDevicesByUser(Guid userId)
+        {
+            var devices = await _service.Device.GetAllDevicesByUserAsync(userId, trackChanges: false);
+            return Ok(devices);
+        }
         [HttpGet("device/{id:guid}", Name = "DeviceById")]
         public async Task<IActionResult> GetDevice(Guid id)
         {
@@ -38,6 +50,12 @@ namespace DataWave.Presentation.Controllers
             if (device == null)
             {
                 return BadRequest("DeviceForCreationDto object is null");
+            }
+
+            var existingDevice = await _service.Device.GetDeviceByPhoneNumberAsync(device.PhoneNumber, trackChanges: false);
+            if (existingDevice != null)
+            {
+                return Conflict($"A device with phone number '{device.PhoneNumber}' already exists");
             }
 
             var createdDevice = await _service.Device.CreateDeviceAsync(userId, device);
@@ -61,6 +79,20 @@ namespace DataWave.Presentation.Controllers
             await _service.Device.UpdateDeviceAsync(id, device, trackChanges: true);
             return NoContent();
         }
+        [HttpPut("device/swap")]
+        public async Task<IActionResult> SwapPhoneNumber([FromBody] SwapPhoneNumberRequestDto swapRequest)
+        {
+            if (swapRequest == null)
+            {
+                return BadRequest("SwapPhoneNumberRequestDto object is null");
+            }
+
+            var response = await _service.Device.SwapPhoneNumberAsync(swapRequest.Device1, swapRequest.Device2, trackChanges: true);
+            return Ok(response);
+        }
+
+
 
     }
+    
 }

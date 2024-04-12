@@ -30,6 +30,18 @@ namespace Service
             var devicesDto = _mapper.Map<IEnumerable<DeviceDto>>(devices);
             return devicesDto;
         }
+        public async Task<IEnumerable<DeviceDto>> GetAllDevicesByPlanUserAsync(Guid planUserId, bool trackChanges)
+        {
+            var devices = await _repositoryManager.Device.GetAllDevicesByPlanUserAsync(planUserId, trackChanges);
+            var devicesDto = _mapper.Map<IEnumerable<DeviceDto>>(devices);
+            return devicesDto;
+        }
+        public async Task<IEnumerable<DeviceDto>> GetAllDevicesByUserAsync(Guid userId, bool trackChanges)
+        {
+            var devices = await _repositoryManager.Device.GetAllDevicesByUserAsync(userId, trackChanges);
+            var devicesDto = _mapper.Map<IEnumerable<DeviceDto>>(devices);
+            return devicesDto;
+        }
         public DeviceDto GetDevice(Guid id, bool trackChanges)
         {
             var device = _repositoryManager.Device.GetDevice(id, trackChanges);
@@ -39,6 +51,12 @@ namespace Service
         public async Task<DeviceDto> GetDeviceAsync(Guid id, bool trackChanges)
         {
             var device = await _repositoryManager.Device.GetDeviceAsync(id, trackChanges);
+            var deviceDto = _mapper.Map<DeviceDto>(device);
+            return deviceDto;
+        }
+        public async Task<DeviceDto> GetDeviceByPhoneNumberAsync(string phoneNumber, bool trackChanges)
+        {
+            var device = await _repositoryManager.Device.GetDeviceByPhoneNumberAsync(phoneNumber, trackChanges);
             var deviceDto = _mapper.Map<DeviceDto>(device);
             return deviceDto;
         }
@@ -95,6 +113,21 @@ namespace Service
                 deviceEntity.PhoneNumber = deviceUpdateDto.PhoneNumber;
             }
 
+            var planUserEntity = await _repositoryManager.PlanUser.GetPlanUserAsync(deviceUpdateDto.PlanUserId.Value, trackChanges);
+
+            if (planUserEntity != null)
+            {
+                var planEntity = await _repositoryManager.Plan.GetPlanAsync(planUserEntity.PlanId, trackChanges);
+
+                var devices = await _repositoryManager.Device.GetAllDevicesByPlanUserAsync(planUserEntity.Id, trackChanges);
+
+                if (devices.Count() >= planEntity.DeviceLimit)
+                {
+                    // The plan has reached the maximum number of devices
+                    throw new PlanDeviceLimitReachedException(planEntity.Id);
+                }
+            }
+
             if (deviceUpdateDto.PlanUserId != null)
             {
                 deviceEntity.PlanUserId = deviceUpdateDto.PlanUserId;
@@ -107,6 +140,37 @@ namespace Service
             var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
             return deviceToReturn;
         }
+        public async Task<SwapPhoneNumberResponseDto> SwapPhoneNumberAsync(DeviceForUpdateDto device1, DeviceForUpdateDto device2, bool trackChanges)
+        {
+            var deviceEntity1 = await _repositoryManager.Device.GetDeviceByPhoneNumberAsync(device1.PhoneNumber, trackChanges);
+            var deviceEntity2 = await _repositoryManager.Device.GetDeviceByPhoneNumberAsync(device2.PhoneNumber, trackChanges);
+
+            if (deviceEntity1 == null || deviceEntity2 == null)
+            {
+                // One or both of the devices with the specified IDs not found
+                throw new DeviceNotFoundException(deviceEntity1 == null ? device1.PhoneNumber : device2.PhoneNumber);
+            }
+
+            // Swap the phone numbers of the two devices
+            var tempPhoneNumber = deviceEntity1.PhoneNumber;
+            deviceEntity1.PhoneNumber = deviceEntity2.PhoneNumber;
+            deviceEntity2.PhoneNumber = tempPhoneNumber;
+
+            // Save the updated device entities
+            await _repositoryManager.SaveAsync();
+
+            // Map the updated device entities to DTOs
+            var deviceDto1 = _mapper.Map<DeviceDto>(deviceEntity1);
+            var deviceDto2 = _mapper.Map<DeviceDto>(deviceEntity2);
+
+            // Return both updated devices along with their phone numbers
+            return new SwapPhoneNumberResponseDto
+            {
+                Device1 = deviceDto1,
+                Device2 = deviceDto2
+            };
+        }
+
 
 
 
