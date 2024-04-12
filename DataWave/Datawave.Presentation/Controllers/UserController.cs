@@ -46,11 +46,46 @@ namespace DataWave.Presentation.Controllers
             var createdUser = await _service.User.CreateUserAsync(user);
             return CreatedAtRoute("UserById", new { id = createdUser.Id }, createdUser);
         }
-        // [HttpGet("{id:guid}/device")]
-        // public async Task<IActionResult> GetUserDevices(Guid id)
-        // {
-        //     var devices = await _service.User.GetUserDevicesAsync(id, trackChanges: false);
-        //     return Ok(devices);
-        // }
+        [HttpGet("{userId:guid}/bill")]
+        public async Task<IActionResult> GetUserBill(Guid userId)
+        {
+            Console.WriteLine("Is it getting here");
+            // Retrieve all plan users of the user
+            var planUsers = await _service.PlanUser.GetAllPlanUsersByUserIdAsync(userId, trackChanges: false);
+
+            // Initialize a list to store plan details
+            var planDetails = new List<PlanDetailDto>();
+
+            // Initialize total cost
+            decimal totalCost = 0;
+
+            // Iterate through each plan user to get the cost of each plan
+            foreach (var planUser in planUsers)
+            {
+                // Retrieve the corresponding plan
+                var plan = await _service.Plan.GetPlanAsync(planUser.PlanId, trackChanges: false);
+
+                // Add plan details to the list
+                planDetails.Add(new PlanDetailDto
+                {
+                    PlanUserId = planUser.Id,
+                    PlanName = plan.PlanName,
+                    Price = plan.Price
+                });
+
+                // Add the cost of the plan to the total cost
+                totalCost += plan.Price;
+            }
+
+            // Create an object containing both the list of plans with their individual prices and the total price
+            var userBill = new
+            {
+                PlanDetails = planDetails,
+                TotalCost = totalCost
+            };
+
+            // Return the user bill
+            return Ok(userBill);
+        }
     }
 }
