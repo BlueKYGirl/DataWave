@@ -22,6 +22,7 @@ namespace DataWave
             CreateMap<DeviceForUpdateDto, Device>().ReverseMap();
             CreateMap<SwapPhoneNumberRequestDto, Device>().ReverseMap();
             CreateMap<SwapPhoneNumberResponseDto, Device>().ReverseMap();
+            CreateMap<PlanDetailDto, Plan>().ReverseMap();
         }
     }
 }
