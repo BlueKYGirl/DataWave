@@ -113,24 +113,30 @@ namespace Service
                 deviceEntity.PhoneNumber = deviceUpdateDto.PhoneNumber;
             }
 
-            var planUserEntity = await _repositoryManager.PlanUser.GetPlanUserAsync(deviceUpdateDto.PlanUserId.Value, trackChanges);
-
-            if (planUserEntity != null)
+            if (deviceUpdateDto.PlanUserId.HasValue)
             {
-                var planEntity = await _repositoryManager.Plan.GetPlanAsync(planUserEntity.PlanId, trackChanges);
+                // If PlanUserId is provided, set it to the provided value
+                var planUserEntity = await _repositoryManager.PlanUser.GetPlanUserAsync(deviceUpdateDto.PlanUserId.Value, trackChanges);
 
-                var devices = await _repositoryManager.Device.GetAllDevicesByPlanUserAsync(planUserEntity.Id, trackChanges);
-
-                if (devices.Count() >= planEntity.DeviceLimit)
+                if (planUserEntity != null)
                 {
-                    // The plan has reached the maximum number of devices
-                    throw new PlanDeviceLimitReachedException(planEntity.Id);
-                }
-            }
+                    var planEntity = await _repositoryManager.Plan.GetPlanAsync(planUserEntity.PlanId, trackChanges);
 
-            if (deviceUpdateDto.PlanUserId != null)
-            {
+                    var devices = await _repositoryManager.Device.GetAllDevicesByPlanUserAsync(planUserEntity.Id, trackChanges);
+
+                    if (devices.Count() >= planEntity.DeviceLimit)
+                    {
+                        // The plan has reached the maximum number of devices
+                        throw new PlanDeviceLimitReachedException(planEntity.Id);
+                    }
+                }
+
                 deviceEntity.PlanUserId = deviceUpdateDto.PlanUserId;
+            }
+            else
+            {
+                // If PlanUserId is null, set it to null
+                deviceEntity.PlanUserId = null;
             }
 
             // Save the updated device entity
@@ -140,6 +146,7 @@ namespace Service
             var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
             return deviceToReturn;
         }
+
         public async Task<SwapPhoneNumberResponseDto> SwapPhoneNumberAsync(DeviceForUpdateDto device1, DeviceForUpdateDto device2, bool trackChanges)
         {
             var deviceEntity1 = await _repositoryManager.Device.GetDeviceByPhoneNumberAsync(device1.PhoneNumber, trackChanges);

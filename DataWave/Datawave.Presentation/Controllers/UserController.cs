@@ -49,7 +49,6 @@ namespace DataWave.Presentation.Controllers
         [HttpGet("{userId:guid}/bill")]
         public async Task<IActionResult> GetUserBill(Guid userId)
         {
-            Console.WriteLine("Is it getting here");
             // Retrieve all plan users of the user
             var planUsers = await _service.PlanUser.GetAllPlanUsersByUserIdAsync(userId, trackChanges: false);
 
