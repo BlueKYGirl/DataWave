@@ -26,5 +26,9 @@ namespace Repository
             await FindByCondition(u => u.Id.Equals(userId), trackChanges)
             .SingleOrDefaultAsync();
         public void CreateUser(User user) => Create(user);
+        public async Task<User> GetUserByEmailAndPasswordAsync(string email, string password, bool trackChanges) =>
+            await FindByCondition(u => u.Email == email && u.Password == password, trackChanges)
+            .SingleOrDefaultAsync();
+
     }
 }

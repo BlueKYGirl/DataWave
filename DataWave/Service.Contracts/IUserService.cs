@@ -14,6 +14,6 @@ namespace Service.Contracts
         UserDto GetUser(Guid id, bool trackChanges);
         Task<UserDto> GetUserAsync(Guid id, bool trackChanges);
         Task<UserDto> CreateUserAsync(UserForCreationDto user);
-        // Task<UserDevicesDto> GetUserDevicesAsync(Guid id, bool trackChanges);
+        Task<User> AuthenticateUserAsync(string email, string password); 
     }
 }

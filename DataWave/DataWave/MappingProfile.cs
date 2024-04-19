@@ -12,7 +12,8 @@ namespace DataWave
             CreateMap<User, UserDto>()
               .ForMember(c => c.FullName,
                            opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"));
-            CreateMap<UserForCreationDto, User>();
+            CreateMap<UserForCreationDto, User>() // Include Password property mapping
+              .ForMember(dest => dest.Password, opt => opt.MapFrom(src => src.Password));
             CreateMap<Plan, PlanDto>();
             CreateMap<Device, DeviceDto>();
             CreateMap<PlanUser, PlanUserDto>();
@@ -23,6 +24,7 @@ namespace DataWave
             CreateMap<SwapPhoneNumberRequestDto, Device>().ReverseMap();
             CreateMap<SwapPhoneNumberResponseDto, Device>().ReverseMap();
             CreateMap<PlanDetailDto, Plan>().ReverseMap();
+            CreateMap<UserForAuthenticationDto, User>().ReverseMap();
         }
     }
 }

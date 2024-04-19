@@ -17,6 +17,8 @@ namespace Entities
         [Required]
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
+        public string? Password { get; set; }
+
      
         public ICollection<Device>? Devices { get; set; }
         public ICollection<PlanUser>? PlanUsers { get; set; }

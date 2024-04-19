@@ -86,5 +86,15 @@ namespace DataWave.Presentation.Controllers
             // Return the user bill
             return Ok(userBill);
         }
+        [HttpPost("authenticate")]
+        public async Task<IActionResult> AuthenticateUserAsync([FromBody] UserForAuthenticationDto userDto)
+        {
+            var user = await _service.User.AuthenticateUserAsync(userDto.Email, userDto.Password);
+            if (user == null)
+                return Unauthorized(new { message = "Invalid email or password" });
+
+            // User authenticated, return user identifier
+            return Ok(new { userId = user.Id });
+        }
     }
 }

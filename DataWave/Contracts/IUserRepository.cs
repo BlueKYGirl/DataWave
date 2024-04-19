@@ -13,5 +13,6 @@ namespace Contracts
         Task<User> GetUserAsync(Guid id, bool trackChanges);
         User GetUser(Guid id, bool trackChanges);
         void CreateUser(User user);
+        Task<User> GetUserByEmailAndPasswordAsync(string email, string password, bool trackChanges);
     }
 }
