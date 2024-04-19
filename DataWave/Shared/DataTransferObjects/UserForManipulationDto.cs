@@ -19,6 +19,9 @@ namespace Shared.DataTransferObjects
         [Required]
         [DataType(DataType.EmailAddress)]
         public string? Email { get; init; }
+        [Required(ErrorMessage = "Password is required.")]
+        [MaxLength(100, ErrorMessage = "Password cannot be longer than 100 characters.")]
+        public string? Password { get; init; }
 
 
     }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Repository;
 
@@ -11,9 +12,11 @@ using Repository;
 namespace DataWave.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240418201627_YourMigrationName")]
+    partial class YourMigrationName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -177,9 +180,6 @@ namespace DataWave.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
 
-                    b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("Users");
@@ -190,24 +190,21 @@ namespace DataWave.Migrations
                             Id = new Guid("06917677-cdd6-4523-91b8-88d6d0a912d2"),
                             Email = "calexander@contosouniversity.edu",
                             FirstName = "Carson",
-                            LastName = "Alexander",
-                            Password = "password1"
+                            LastName = "Alexander"
                         },
                         new
                         {
                             Id = new Guid("798acf1b-7339-44bd-8367-7132a978d7b1"),
                             Email = "malonso@contosouniversity.edu",
                             FirstName = "Meredith",
-                            LastName = "Alonso",
-                            Password = "password2"
+                            LastName = "Alonso"
                         },
                         new
                         {
                             Id = new Guid("2a36409f-6732-459b-b7d1-a561c521a3cb"),
                             Email = "aanand@contosouniversity.edu",
                             FirstName = "Arturo",
-                            LastName = "Anand",
-                            Password = "password3"
+                            LastName = "Anand"
                         });
                 });
 

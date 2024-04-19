@@ -19,6 +19,7 @@ namespace Repository.Configuration
                     FirstName = "Carson",
                     LastName = "Alexander",
                     Email = "calexander@contosouniversity.edu",
+                    Password = "password1" // Set the password value
                 },
                 new User
                 {
@@ -26,6 +27,7 @@ namespace Repository.Configuration
                     FirstName = "Meredith",
                     LastName = "Alonso",
                     Email = "malonso@contosouniversity.edu",
+                    Password = "password2" // Set the password value
                 },
                 new User
                 {
@@ -33,6 +35,7 @@ namespace Repository.Configuration
                     FirstName = "Arturo",
                     LastName = "Anand",
                     Email = "aanand@contosouniversity.edu",
+                    Password = "password3" // Set the password value
                 }
                 // Add other users here
             );
